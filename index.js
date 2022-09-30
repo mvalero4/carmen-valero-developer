@@ -34,6 +34,13 @@ const projects = [
     description: 'A simple game to pass the time ',
     list: ['Html', 'Css', 'Javascript'].join(' '),
   },
+
+  {
+    url: 'https://weather-current-app-react.netlify.app/',
+    title: 'Weather Current App',
+    description: 'Weather Current App with React',
+    list: ['Html', 'Css', 'Javascript', 'React'].join(' '),
+  },
 ];
 
 
