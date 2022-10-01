@@ -41,6 +41,13 @@ const projects = [
     description: 'Weather Current App with React',
     list: ['Html', 'Css', 'Javascript', 'React'].join(' '),
   },
+
+  {
+    url: 'https://convert-audio-to-text.netlify.app/',
+    title: 'Convert Audio To Text',
+    description: 'Convert audio to text and Download file',
+    list: ['Html', 'Css', 'Javascript'].join(' '),
+  },
 ];
 
 
