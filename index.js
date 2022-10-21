@@ -2,9 +2,50 @@
 
 const btnMenu = document.querySelector('.menu-btn');
 const menu = document.querySelector('.menu');
-
-
 const projectsContainer = document.querySelector('.projects-container');
+const modalContainer = document.querySelector('.modal-content');
+const project = document.querySelector('.project');
+const modal = document.querySelector('.modal');
+const modalClose = document.querySelector('.modal-close');
+
+function closeModal() {
+  modal.classList.add('modal-none');
+}
+
+
+// function onProjectClick(){
+//   modal.classList.remove('modal-none');
+
+//   projects.forEach(project => {
+//     const {id, title, description, imageModal, client, date, projectType, link} = project;
+  
+//     const modalContain = `
+//     <a class="modal-close" onclick="closeModal()"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.207,14.793l-1.414,1.414L12,13.414 l-2.793,2.793l-1.414-1.414L10.586,12L7.793,9.207l1.414-1.414L12,10.586l2.793-2.793l1.414,1.414L13.414,12L16.207,14.793z"/></svg>
+//     </a>
+//     <article class="portfolio-modal" alt='${id}'>
+//       <img src=${imageModal} alt="">
+//       <div class="portfolio-info">
+//           <h3>${title}</h3>
+//           <p>${description}</p><br>
+//           <aside class="portfolio-details">
+//               <small><b>CLIENT</b></small>
+//               <Small>${client}</Small>
+//               <small><b>DATE</b></small>
+//               <small>${date}</small>
+//               <small><b>PROJECT TYPE</b></small>
+//               <small>${projectType}</small>
+//               <small><b>LINK</b></small>
+//               <small><a href=${link} target="_blank" rel="noopener">${link}</a></small>
+//           </aside>
+//       </div>
+//     </article>
+//     `
+//     modalContainer.innerHTML = modalContain;
+//   });
+// }
+
+
+
 
 btnMenu.addEventListener('click', (e) =>{
   btnMenu.firstElementChild.classList.toggle('none');
@@ -24,73 +65,28 @@ document.addEventListener('click', (e) =>{
 });
 
 
-const projects = [
-  {
-    url: 'https://carmentraining.netlify.app/',
-    title: 'Carmentraining',
-    description: 'A single website for a personal trainer Carmentraining',
-    list: ['Html', 'Css', 'Javascript'].join(' '),
-  },
-
-  {
-    url: 'https://text-to-speech-carmen.netlify.app/',
-    title: 'Text to Speech',
-    description: 'A website to convert text to speech',
-    list: ['Html', 'Css', 'Javascript'].join(' '),
-  },
-
-  {
-    url: 'https://calculator-carmen.netlify.app/',
-    title: 'Calculator',
-    description: 'Calculator website',
-    list: ['Html', 'Css', 'Javascript', 'React'].join(' '),
-  },
-
-  {
-    url: 'https://3-en-raya-carmen.netlify.app/',
-    title: 'Play "3 en raya" ',
-    description: 'A simple game to pass the time ',
-    list: ['Html', 'Css', 'Javascript'].join(' '),
-  },
-
-  {
-    url: 'https://weather-current-app-react.netlify.app/',
-    title: 'Weather Current App',
-    description: 'Weather Current App with React',
-    list: ['Html', 'Css', 'Javascript', 'React'].join(' '),
-  },
-
-  {
-    url: 'https://convert-audio-to-text.netlify.app/',
-    title: 'Convert Audio To Text',
-    description: 'Convert audio to text and Download file',
-    list: ['Html', 'Css', 'Javascript'].join(' '),
-  },
-];
-
-
 projects.forEach(project => {
-  const {url, title, description, list} = project;
+  const {id, url, title, description, list, image} = project;
+
   const projectContain = `
   <li class="project">
-    <div class="project-top">
-        <img class="folder" src="./assets/folder-open-outline.svg" alt="folder">
-        <a href=${url} target="_blank"><img class="external-link" src="./assets/bx-link-external.svg" alt=""></a>
-    </div>
-          
-    <div class="project-midle">
-        <p class="project-title">${title}</p>
-        <p class="description">${description}</p>
-    <div>
-
-    <ul class="project-bottom">
-        <li>${list}</li>
-    </ul>
+    <a href=${url} target="_blank" class="portfolio-card">
+      <img src=${image} alt="Project ${id}">
+      <aside class="portfolio-card-info">
+        <div>
+            <h3>Project n°${id}</h3><br>
+            <p class="project-title">${title}</p>
+            <p>${description}</p>
+            <ul class="project-bottom">
+              <li>${list}</li>
+            </ul>
+        </div>
+      </aside>
+    </a>
   </li>
   `
-
   projectsContainer.innerHTML += projectContain;
-})
+});
 
 
 
