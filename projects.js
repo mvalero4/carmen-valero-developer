@@ -1,6 +1,6 @@
 const projects = [
   {
-    id: 1,
+    id: 0,
     url: 'https://carmentraining.netlify.app/',
     title: 'Carmentraining',
     description: 'A single website for a personal trainer Carmentraining',
@@ -14,7 +14,7 @@ const projects = [
   },
   
   {
-    id: 2,
+    id: 1,
     url: 'https://text-to-speech-carmen.netlify.app/',
     title: 'Text to Speech',
     description: 'A website to convert text to speech',
@@ -28,7 +28,7 @@ const projects = [
   },
   
   {
-    id: 3,
+    id: 2,
     url: 'https://calculator-carmen.netlify.app/',
     title: 'Calculator',
     description: 'Calculator website',
@@ -42,7 +42,7 @@ const projects = [
   },
   
   {
-    id: 4,
+    id: 3,
     url: 'https://3-en-raya-carmen.netlify.app/',
     title: 'Play "3 en raya" ',
     description: 'A simple game to pass the time',
@@ -56,7 +56,7 @@ const projects = [
   },
   
   {
-    id: 5,
+    id: 4,
     url: 'https://weather-current-app-react.netlify.app/',
     title: 'Weather Current App',
     description: 'Weather Current App with React',
@@ -70,7 +70,7 @@ const projects = [
   },
 
   {
-    id: 6,
+    id: 5,
     url: 'https://convert-audio-to-text.netlify.app/',
     title: 'Convert Audio To Text',
     description: 'Convert audio to text and Download file',
@@ -84,7 +84,7 @@ const projects = [
   },
 
   {
-    id: 7,
+    id: 6,
     url: 'https://piedra-papel-tijera-app.netlify.app/',
     title: 'Play rock, paper or scissors',
     description: 'Traditional game: Rock, paper, scissors',
@@ -98,7 +98,7 @@ const projects = [
   },
 
   {
-    id: 8,
+    id: 7,
     url: 'https://movies-app-carmenfrontdev.netlify.app/',
     title: 'Movies App',
     description: 'Application to watch popular movies and descriptions of these movies, view by category and save your favorites.',
@@ -112,7 +112,7 @@ const projects = [
   },
 
   {
-    id: 9,
+    id: 8,
     url: 'https://calculator-without-react.netlify.app/',
     title: 'Calculator',
     description: 'Calculator website',
@@ -126,7 +126,7 @@ const projects = [
   },
 
   {
-    id: 10,
+    id: 9,
     url: 'https://juego-del-ahorcado-carmenfrontdev.netlify.app/',
     title: 'Hanged',
     description: 'Classic game The hanged',
