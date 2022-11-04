@@ -152,4 +152,18 @@ const projects = [
     projectType: 'Page',
     link: 'https://maquetacion-con-tailwind.netlify.app/',
   },
+
+  {
+    id: 11,
+    url: 'https://lista-de-tareas-carmenfrontdev.netlify.app/',
+    title: 'Lista de tareas',
+    description: 'Agrega tus tareas pendientes, marca las terminadas y elimina la que quieras',
+    list: ['Html', 'Css', 'Javascript', 'React'].join(' '),
+    image: './assets/tareas-white.jpg',
+    imageModal: './assets/tareas.jpg',
+    client: 'Public',
+    date: 'Nov 2022',
+    projectType: 'Website',
+    link: 'https://lista-de-tareas-carmenfrontdev.netlify.app/',
+  },
 ];
