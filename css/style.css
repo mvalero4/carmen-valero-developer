@@ -533,7 +533,7 @@ header p{
 
 .portfolio-details{
   display: grid;
-  grid-template-columns: 32% 60%;
+  grid-template-columns: 32% 80%;
   grid-auto-rows: 1.5rem;
 }
 

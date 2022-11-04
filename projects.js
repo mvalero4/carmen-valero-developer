@@ -23,7 +23,7 @@ const projects = [
     imageModal: './assets/text-synth.jpg',
     client: 'Public',
     date: 'August 2022',
-    projectType: '',
+    projectType: 'Website',
     link: 'https://text-to-speech-carmen.netlify.app/',
   },
   
@@ -37,7 +37,7 @@ const projects = [
     imageModal: './assets/calculator.jpg',
     client: 'Public',
     date: 'July 2022',
-    projectType: '',
+    projectType: 'Classic tool',
     link: 'https://calculator-carmen.netlify.app/',
   },
   
@@ -137,5 +137,19 @@ const projects = [
     date: 'Oct 2022',
     projectType: 'Game',
     link: 'https://juego-del-ahorcado-carmenfrontdev.netlify.app/',
+  },
+
+  {
+    id: 10,
+    url: 'https://maquetacion-con-tailwind.netlify.app/',
+    title: 'Traveling...',
+    description: 'Website with Tailwind 3.0',
+    list: ['Html', 'Tailwind', 'Javascript'].join(' '),
+    image: './assets/viajando-white.jpg',
+    imageModal: './assets/viajando.jpg',
+    client: 'Public',
+    date: 'Nov 2022',
+    projectType: 'Page',
+    link: 'https://maquetacion-con-tailwind.netlify.app/',
   },
 ];
