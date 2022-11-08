@@ -156,8 +156,8 @@ const projects = [
   {
     id: 11,
     url: 'https://lista-de-tareas-carmenfrontdev.netlify.app/',
-    title: 'Lista de tareas',
-    description: 'Agrega tus tareas pendientes, marca las terminadas y elimina la que quieras',
+    title: "To do's",
+    description: 'Add your pending tasks, mark the finished and eliminate the one you want',
     list: ['Html', 'Css', 'Javascript', 'React'].join(' '),
     image: './assets/tareas-white.jpg',
     imageModal: './assets/tareas.jpg',
