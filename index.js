@@ -69,7 +69,7 @@ projects.forEach(project => {
 
   const projectContain = `
   <li id='project-${id}' class="project" onclick="onProjectClick(${id});">
-    <a class="portfolio-card">
+    <div class="portfolio-card">
       <img src=${image} alt="Project ${id}">
       <aside class="portfolio-card-info">
         <div>
@@ -81,7 +81,7 @@ projects.forEach(project => {
             </ul>
         </div>
       </aside>
-    </a>
+    </div>
   </li>
   `
   projectsContainer.innerHTML += projectContain;

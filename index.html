@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Autor: Carmen Valero, Frontend Developer: Web Portfolio">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=DynaPuff:wght@400;700&family=Inter:wght@300;500&family=Open+Sans&family=Oswald:wght@300;500;700&family=Raleway:wght@400;700&family=Roboto+Mono:wght@300;500;700&display=swap" rel="stylesheet">
@@ -17,7 +18,7 @@
         <img class="logo" src="./assets/logo-verde.png" alt="logo">
         <p>Carmen Valero<br> | Frontend Developer</p>
 
-        <button class="menu-btn">
+        <button class="menu-btn" aria-label="Botón de menu desplegable">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"/></svg>
 
             <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z"/></svg>
@@ -71,7 +72,7 @@
                             <img src="./assets/foto.jpg" alt="foto-de-perfil">
                         </div>
                         <div class="flip-card-back">
-                            <a href="/Carmen Valero.pdf" target="_blank"><img src="./assets/CV.png" alt=""></a>
+                            <a href="/Carmen Valero.pdf" target="_blank" aria-label="Resume"><img src="./assets/CV.png" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -117,12 +118,10 @@
     
     <section class="main-icons-container">
         <ul class="icons-container">
-            <a href="https://www.facebook.com/mvalero4/" target="_blank"><img src="./assets/facebook.svg" alt=""></a>
-            <a href="https://www.instagram.com/carmenfrontdev/" target="_blank"><img src="./assets/instagram.svg" alt=""></a>
-            <a href="https://github.com/mvalero4" target="_blank"><img src="./assets/github.svg" alt=""></a>
-            <a href="https://www.linkedin.com/in/carmen-valero-carre%C3%B1o-59ba6318b/" target="_blank"><img src="./assets/linkedin.svg" alt=""><a>
-            <a href="https://web.whatsapp.com/" target="_blank"><img src="./assets/message-circle.svg" alt=""></a>
-            </svg></a>
+            <li><a href="https://www.instagram.com/carmenfrontdev/" target="_blank" aria-label="Página de Instagram"><img src="./assets/instagram.svg" alt=""></a></li>
+            <li><a href="https://github.com/mvalero4" target="_blank" aria-label="Página de GitHub"><img src="./assets/github.svg" alt=""></a></li>
+            <li><a href="https://www.linkedin.com/in/carmen-valero-carre%C3%B1o-59ba6318b/" target="_blank" aria-label="Página de Facebook"><img src="./assets/linkedin.svg" alt=""></a></li>
+            <li><a href="https://web.whatsapp.com/" target="_blank" aria-label="Contacto de Whatsapp"><img src="./assets/message-circle.svg" alt=""></a></li>
         </ul>
     </section>
 
