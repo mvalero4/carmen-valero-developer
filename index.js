@@ -33,7 +33,7 @@ function onProjectClick(id){
                     <small><b>PROJECT TYPE</b></small>
                     <small>${projects[id].projectType}</small>
                     <small><b>LINK</b></small>
-                    <small><a href=${projects[id].link} target="_blank" rel="noopener">${projects[id].link}</a></small>
+                    <small><a href=${projects[id].url} target="_blank" rel="noopener">${projects[id].url}</a></small>
                 </aside>
             </div>
         </article>
@@ -65,7 +65,7 @@ document.addEventListener('click', (e) =>{
 
 
 projects.forEach(project => {
-  const {id, url, title, description, list, image} = project;
+  const {id, title, description, list, image} = project;
 
   const projectContain = `
   <li id='project-${id}' class="project" onclick="onProjectClick(${id});">

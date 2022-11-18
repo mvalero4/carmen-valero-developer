@@ -10,7 +10,6 @@ const projects = [
     client: 'Carmentraining',
     date: 'July 2022',
     projectType: 'A simple website',
-    link: 'https://carmentraining.netlify.app/',
   },
   
   {
@@ -24,7 +23,6 @@ const projects = [
     client: 'Public',
     date: 'August 2022',
     projectType: 'Website',
-    link: 'https://text-to-speech-carmen.netlify.app/',
   },
   
   {
@@ -38,7 +36,6 @@ const projects = [
     client: 'Public',
     date: 'July 2022',
     projectType: 'Classic tool',
-    link: 'https://calculator-carmen.netlify.app/',
   },
   
   {
@@ -52,7 +49,6 @@ const projects = [
     client: 'Public',
     date: 'June 2022',
     projectType: 'A simple game to pass the time',
-    link: 'https://3-en-raya-carmen.netlify.app/',
   },
   
   {
@@ -66,7 +62,6 @@ const projects = [
     client: 'Public',
     date: 'August 2022',
     projectType: 'Weather Current App',
-    link: 'https://weather-current-app-react.netlify.app/',
   },
 
   {
@@ -80,7 +75,6 @@ const projects = [
     client: 'Public',
     date: 'July 2022',
     projectType: 'A simple website',
-    link: 'https://convert-audio-to-text.netlify.app/',
   },
 
   {
@@ -93,8 +87,7 @@ const projects = [
     imageModal: './assets/piedra-papel-tijera.jpg',
     client: 'Public',
     date: 'May 2022',
-    projectType: 'App',
-    link: 'https://piedra-papel-tijera-app.netlify.app/',
+    projectType: 'Game',
   },
 
   {
@@ -108,7 +101,6 @@ const projects = [
     client: 'Public',
     date: 'September 2022',
     projectType: 'App',
-    link: 'https://movies-app-carmenfrontdev.netlify.app/',
   },
 
   {
@@ -122,7 +114,6 @@ const projects = [
     client: 'Public',
     date: 'May 2022',
     projectType: 'App',
-    link: 'https://calculator-without-react.netlify.app/',
   },
 
   {
@@ -136,7 +127,6 @@ const projects = [
     client: 'Public',
     date: 'Oct 2022',
     projectType: 'Game',
-    link: 'https://juego-del-ahorcado-carmenfrontdev.netlify.app/',
   },
 
   {
@@ -150,7 +140,6 @@ const projects = [
     client: 'Public',
     date: 'Nov 2022',
     projectType: 'Page',
-    link: 'https://maquetacion-con-tailwind.netlify.app/',
   },
 
   {
@@ -164,6 +153,31 @@ const projects = [
     client: 'Public',
     date: 'Nov 2022',
     projectType: 'Website',
-    link: 'https://lista-de-tareas-carmenfrontdev.netlify.app/',
+  },
+
+  {
+    id: 12,
+    url: 'https://decodifica-la-palabra.netlify.app/',
+    title: 'Decode words',
+    description: 'Messy words',
+    list: ['Html', 'Sass', 'Javascript'].join(' '),
+    image: './assets/decodificar-white.jpg',
+    imageModal: './assets/decodificar.jpg',
+    client: 'Public',
+    date: 'Nov 2022',
+    projectType: 'Game',
+  },
+
+  {
+    id: 13,
+    url: 'https://juego-de-memoria-imagenes.netlify.app/',
+    title: 'Memory game',
+    description: 'Find the pair of images',
+    list: ['Html', 'Sass', 'Javascript'].join(' '),
+    image: './assets/memoria-imagenes-white.jpg',
+    imageModal: './assets/memoria-imagenes.jpg',
+    client: 'Public',
+    date: 'Nov 2022',
+    projectType: 'Game',
   },
 ];
