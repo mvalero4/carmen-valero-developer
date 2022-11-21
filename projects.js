@@ -180,4 +180,17 @@ const projects = [
     date: 'Nov 2022',
     projectType: 'Game',
   },
+
+  {
+    id: 14,
+    url: 'https://adivina-la-bandera.netlify.app/',
+    title: 'Guess the flag',
+    description: 'Guess which country the flag belongs to',
+    list: ['Html', 'Sass', 'Javascript'].join(' '),
+    image: './assets/adivina-bandera-white.jpg',
+    imageModal: './assets/adivina-bandera.jpg',
+    client: 'Public',
+    date: 'Nov 2022',
+    projectType: 'Game',
+  },
 ];
