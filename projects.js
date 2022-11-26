@@ -193,4 +193,17 @@ const projects = [
     date: 'Nov 2022',
     projectType: 'Game',
   },
+
+  {
+    id: 15,
+    url: 'https://platzifood-carmenfrontdev.netlify.app/',
+    title: 'PlatziFood',
+    description: 'Food Website',
+    list: ['Html', 'Tailwind', 'AlpineJs'].join(' '),
+    image: './assets/platzifood-white.jpg',
+    imageModal: './assets/platzifood.jpg',
+    client: 'Public',
+    date: 'Nov 2022',
+    projectType: 'Website',
+  },
 ];
