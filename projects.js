@@ -206,4 +206,17 @@ const projects = [
     date: 'Nov 2022',
     projectType: 'Website',
   },
+
+  {
+    id: 16,
+    url: 'https://homesmart-carmenfrontdev.netlify.app/',
+    title: 'HomeSmart',
+    description: 'Furniture Shop Website with Tailwind',
+    list: ['Html', 'Tailwind'].join(' '),
+    image: './assets/homesmart-white.jpg',
+    imageModal: './assets/homesmart.jpg',
+    client: 'Public',
+    date: 'Nov 2022',
+    projectType: 'Website',
+  },
 ];
