@@ -219,4 +219,17 @@ const projects = [
     date: 'Nov 2022',
     projectType: 'Website',
   },
+
+  {
+    id: 17,
+    url: 'https://platzi-conf-carmenfrontdev.netlify.app/',
+    title: 'PlatziConf',
+    description: 'Website with Bootstrap',
+    list: ['Html', 'Css', 'Javascript', 'Bootstrap'].join(' '),
+    image: './assets/platziconf-white.jpg',
+    imageModal: './assets/platziconf.jpg',
+    client: 'Public',
+    date: 'Dic 2022',
+    projectType: 'Website',
+  },
 ];
