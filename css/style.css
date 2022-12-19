@@ -40,7 +40,7 @@ body{
 }
 
 a{
-  color: var(--oxford-blue);
+  color: var(--carmen-green);
   transition: all 0.5s ease-out;
   text-decoration: none;
 }
@@ -50,9 +50,8 @@ a:hover{
 }
 
 h1{
-    margin: 0;
-    font-size: 2.6rem;
-    color: var(--cool-grey);
+  margin: 0;
+  font-size: 5rem;
 }
 
 h2{
@@ -64,7 +63,6 @@ h2{
 h3{
   margin: 0;
   font-size: 1.8rem;
-  color:var(--cool-grey);
 }
 
 h4{
@@ -128,7 +126,7 @@ p{
 header{
   display: flex;
   justify-content: space-around;
-  position: fixed;
+  position: sticky;
   left: 0;
   top: 0;
   z-index: 999;
@@ -164,6 +162,7 @@ header{
 header p{
   margin-top: .7rem;
   line-height: 1rem;
+  font-weight: bold;
 }
 
 .menu-btn{
@@ -231,8 +230,8 @@ header p{
 }
 
 .home p{
-  color:var(--dark-grey);
   margin-top: 20px;
+  font-size: 1.2rem;
 }
 
 
@@ -249,6 +248,10 @@ header p{
 .about-me-container-all h3{
   border-bottom: thin solid var(--carmen-green);
   margin-bottom: 2rem;
+}
+
+.about-me-text p{
+  font-size: 1.2rem;
 }
 
 
@@ -781,10 +784,11 @@ a.close-chat {
 footer{
   width: 100%;
   margin-top: 80px;
-  background: var(--carmen-green);
-  box-shadow: -2px -6px 10px 5px var(--black);
+  background-color: var(--raisin-black);
+  box-shadow: -2px -6px 10px 5px var(--white);
   text-align: center;
   font-weight: bold;
+  color: var(--white);
 }
 
 .footer-container{
@@ -907,6 +911,11 @@ footer{
 
   .menu a{
     padding: 1rem 1rem;
+  }
+
+  .menu a:hover{
+    color: var(--white);
+    background-color: transparent;
   }
 
   .home{
