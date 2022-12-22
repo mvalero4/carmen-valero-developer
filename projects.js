@@ -232,4 +232,17 @@ const projects = [
     date: 'Dic 2022',
     projectType: 'Website',
   },
+
+  {
+    id: 18,
+    url: 'https://design-and-development.netlify.app/',
+    title: 'Desgin | Web Dvelopment',
+    description: 'Company Design and web development website',
+    list: ['Html', 'Css', 'Javascript', 'Bootstrap'].join(' '),
+    image: './assets/diseño-desarrollo-white.jpg',
+    imageModal: './assets/diseño-desarrollo.jpg',
+    client: 'Public',
+    date: 'Dec 2022',
+    projectType: 'Website',
+  },
 ];
