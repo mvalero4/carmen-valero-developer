@@ -245,4 +245,17 @@ const projects = [
     date: 'Dec 2022',
     projectType: 'Website',
   },
+
+  {
+    id: 19,
+    url: 'https://automotive-carmenfrontdev.netlify.app/',
+    title: 'Automotive',
+    description: 'Autos website',
+    list: ['Html', 'Css', 'Javascript'].join(' '),
+    image: './assets/automotive-white.jpg',
+    imageModal: './assets/automotive.jpg',
+    client: 'Public',
+    date: 'Jan 2022',
+    projectType: 'Website',
+  },
 ];
