@@ -196,12 +196,12 @@ const projects = [
 
   {
     id: 15,
-    url: 'https://platzifood-carmenfrontdev.netlify.app/',
-    title: 'PlatziFood',
+    url: 'https://24hburguers.netlify.app/',
+    title: '24hBurguers',
     description: 'Food Website',
     list: ['Html', 'Tailwind', 'AlpineJs'].join(' '),
-    image: './assets/platzifood-white.jpg',
-    imageModal: './assets/platzifood.jpg',
+    image: './assets/24hburguers-white.jpg',
+    imageModal: './assets/24hburguers.jpg',
     client: 'Public',
     date: 'Nov 2022',
     projectType: 'Website',
