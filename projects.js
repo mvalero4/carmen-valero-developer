@@ -9,7 +9,7 @@ const projects = [
     imageModal: './assets/carmentraining.jpg',
     client: 'Carmentraining',
     date: 'July 2022',
-    projectType: 'A simple website',
+    projectType: 'Website',
   },
   
   {
@@ -255,7 +255,20 @@ const projects = [
     image: './assets/automotive-white.jpg',
     imageModal: './assets/automotive.jpg',
     client: 'Public',
-    date: 'Jan 2022',
+    date: 'Jan 2023',
     projectType: 'Website',
+  },
+
+  {
+    id: 20,
+    url: 'https://rickandmorty-carmenfrontdev.netlify.app/',
+    title: 'Rick and Morty',
+    description: 'Web with API REST',
+    list: ['Html', 'Css', 'Javascript'].join(' '),
+    image: './assets/rickandmorty-white.jpg',
+    imageModal: './assets/rickandmorty.jpg',
+    client: 'Public',
+    date: 'Jan 2023',
+    projectType: 'Web',
   },
 ];
