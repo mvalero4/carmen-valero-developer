@@ -222,12 +222,12 @@ const projects = [
 
   {
     id: 17,
-    url: 'https://platzi-conf-carmenfrontdev.netlify.app/',
-    title: 'PlatziConf',
+    url: 'https://topconferencias.netlify.app/',
+    title: 'TopConferencias',
     description: 'Website with Bootstrap',
     list: ['Html', 'Css', 'Javascript', 'Bootstrap'].join(' '),
-    image: './assets/platziconf-white.jpg',
-    imageModal: './assets/platziconf.jpg',
+    image: './assets/topconferencias-white.jpg',
+    imageModal: './assets/topconferencias.jpg',
     client: 'Public',
     date: 'Dic 2022',
     projectType: 'Website',
