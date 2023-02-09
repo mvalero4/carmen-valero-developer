@@ -271,4 +271,17 @@ const projects = [
     date: 'Jan 2023',
     projectType: 'Web',
   },
+
+  {
+    id: 21,
+    url: 'https://ingenieria-electronica-mc.netlify.app/',
+    title: 'Electronic Engineering',
+    description: 'Electronic services website',
+    list: ['Html', 'Css', 'Javascript'].join(' '),
+    image: './assets/mauricio-cabrera-white.jpg',
+    imageModal: './assets/mauricio-cabrera.jpg',
+    client: 'Públic',
+    date: 'Feb 2023',
+    projectType: 'Website',
+  },
 ];
